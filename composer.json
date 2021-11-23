@@ -1,11 +1,11 @@
 {
-    "name": "wahyutaufik/metronic-v8-theme",
+    "name": "mbieb94/metronic-v8-theme",
     "description": "Bono archetype with metronic v8 theme",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Wahyu Taufik",
-            "email": "wahyutaufik37@gmail.com"
+            "name": "Mbieb",
+            "email": "mbiebs94@gmail.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "WahyuTaufik\\Theme\\MetronicV8Theme": "src/"
+            "Mbiebs94\\Theme\\MetronicV8Theme": "src/"
         }
     }
 }

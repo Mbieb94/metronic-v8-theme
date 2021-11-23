@@ -1,6 +1,6 @@
 <?php
 
-namespace WahyuTaufik\Theme;
+namespace Mbiebs94\Theme;
 
 use Bono\Theme\Theme;
 use ROH\Util\Inflector;
@@ -14,7 +14,7 @@ class MetronicV8Theme extends BladeTheme
         parent::__construct($options);
 
         // set blade-theme module dir as one of base directory
-        $directory = explode(DIRECTORY_SEPARATOR.'src', __DIR__);
+        $directory = explode(DIRECTORY_SEPARATOR . 'src', __DIR__);
         $directory = reset($directory);
 
         // TODO adding to priority 4, should be 5
